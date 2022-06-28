@@ -725,7 +725,7 @@ section.contact {
 	margin: 15px;
 	background: #213547;
 	border-radius: 15px;
-	min-width: 400px;
+	min-width: 300px;
 	height: 240px;
 	transition: all .3s linear;
 	margin-bottom: 20px;
