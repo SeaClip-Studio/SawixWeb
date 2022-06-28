@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sawix Web</title>
+		<link rel="stylesheet" href="/src/assets/style.css" />
+		<link
+			rel="shortcut icon"
+			href="/src/assets/Images/sawixLogo.png"
+			type="image/x-icon"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		/>
+	</head>
+	<body>
+		<div class="scrollToTop-btn">
+			<i class="fas fa-angle-up"></i>
+		</div>
+
+		<header class="l-header">
+			<nav class="nav bd-grid">
+				<div>
+					<a href="#" class="nav__logo">Sawix Web</a>
+				</div>
+
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#home" class="nav__link active">HOME</a>
+						</li>
+						<li class="nav__item">
+							<a href="#about" class="nav__link">ABOUT</a>
+						</li>
+						<li class="nav__item">
+							<a href="#youtube" class="nav__link">YOUTUBE</a>
+						</li>
+						<li class="nav__item">
+							<a href="#contact" class="nav__link">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="nav__toggle" id="nav-toggle">
+					<i class="fas fa-bars"></i>
+				</div>
+			</nav>
+		</header>
+
+		<div class="wrapper">
+			<div class="content">
+				<header>Cookie Consent</header>
+				<p>
+					This website use cookies to ensure you get best experience on our
+					website.
+				</p>
+				<div class="buttons">
+					<button class="item">I understand</button>
+					<a href="https://cookiepedia.co.uk/giving-consent-to-cookies"
+						>Learn More</a
+					>
+				</div>
+			</div>
+		</div>
+
+		<main class="l-main">
+			<section class="home bd-grid" id="home">
+				<div class="home__data">
+					<h1 class="home__title">Sawix Web <br />My Official Website</h1>
+					<p class="home__subtitle">
+						Hello! I'm a Sawix, I have a my YouTube channel about games such as
+						TROVE / FallGuys / BrawllHalla & more...
+					</p>
+				</div>
+				<div id="download">
+					<div class="btn-groups flex">
+						<a href="#" id="yt"> <i class="fab fa-youtube"></i> YouTube </a>
+						<a href="#" id="discord">
+							<i class="fab fa-discord"></i> Discord
+						</a>
+						<a href="#" id="twitter">
+							<i class="fab fa-twitter"></i> Twitter
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="about section" id="about">
+				<div class="about__container bd-grid">
+					<div>
+						<h2 class="about__subtitle reveal">Sawix</h2>
+						<p class="about__text reveal">
+							Hi! I'm Sawix, I run a YouTube community channel of the same name,
+							previously I ran a rubik cube channel with a different name, but
+							after many longer breaks, the channel has collapsed and now it is
+							turning into a new one, on which I try to upload regular videos
+							about games. <br /><br />
+							I also deal with programming, creating websites, I really like to
+							use HTML, CSS, JS, I will soon try to learn TypeScript because it
+							seems really simple and having already familiarized with
+							JavaScript, I think it will not be difficult to learn TypeScript!
+						</p>
+					</div>
+
+					<div class="about__img">
+						<img
+							class="drop"
+							src="/src/assets/Images/sawixLogoBg.png"
+							alt="logo"
+						/>
+					</div>
+					<div>
+						<h2 class="about__subtitle reveal">YouTube Channel</h2>
+						<p class="about__text reveal">
+							My channel on YouTube platform is based on <br />
+							TROVE / FallGuys / BrawlHalla games and soon I will try to take
+							care of many other games, I run the channel out of passion, and I
+							do not count on any earnings from running the channel, I just like
+							to look at the increasing numbers while browsing the channel
+							statistics!
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="youtube" class="youtube">
+				<h1 class="section-title reveal">Latest Video</h1>
+				<div class="content">
+					<iframe
+						width="920"
+						height="530"
+						src="https://www.youtube.com/embed/0f3TkGeauSI"
+						title="YouTube video player"
+						frameborder=""
+						allow="accelerometer; clipboard-write; encrypted-media; gyroscope;"
+						allowfullscreen
+					></iframe>
+				</div>
+			</section>
+
+			<section id="contact" class="contact">
+				<h1 class="section-title reveal">Contact</h1>
+				<div class="content">
+					<div class="contact__box reveal" id="email">
+						<div class="icon" id="email">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="info">
+							<h1 class="contact__text">EMAIL</h1>
+							<p class="contact__subtext">sawix913@gmail.com</p>
+						</div>
+					</div>
+					<div class="contact__box reveal" id="yt" onclick="YtPage();">
+						<div class="icon" id="yt">
+							<i class="fab fa-youtube"></i>
+						</div>
+						<div class="info">
+							<h1 class="contact__text">YOUTUBE</h1>
+							<p class="contact__subtext">Sawix</p>
+						</div>
+					</div>
+					<div class="contact__box reveal" id="discord">
+						<div class="icon" id="discord">
+							<i class="fab fa-discord"></i>
+						</div>
+						<div class="info">
+							<h1 class="contact__text">DISCORD</h1>
+							<p class="contact__subtext">@Sawix#0291</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<p class="footer__title">Sawix</p>
+
+			<div class="footer__social">
+				<a href="https://be.net/Adiksuu" class="footer__icon"
+					><i class="fab fa-behance"></i
+				></a>
+				<a href="https://patreon.com/adiksuu" class="footer__icon"
+					><i class="fab fa-patreon"></i
+				></a>
+				<a href="https://github.com/SeaClip-Studio" class="footer__icon"
+					><i class="fab fa-github"></i
+				></a>
+			</div>
+
+			<p>&#169; 2022 copyright <span>SeaClipStudio S.A</span>.</p>
+		</footer>
+
+		<script src="/src/scripts/main.js"></script>
+	</body>
+</html>
